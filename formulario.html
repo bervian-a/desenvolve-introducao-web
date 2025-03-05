@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Formularios PD</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <P>Formulário de satisfação. Ficaremos muitos felizes em saber como podemos melhorar</P>
+    <p>Por favor, seja sincero(a)</P>
+        <form action="destino.html" method="POST">
+            <section>
+                <h3>Dados pessoais</h3>
+                <label for="nome">Nome completo:</label>
+                <input id="nome" type="text"/>
+                <br></br>
+                <label for="email">E-mail para contato:</label>
+                <input id="email" type="email"/>
+                <br></br>
+                <label for="tel">Telefone:</label>
+                <input id="tel" type="tel"/>
+                <br></br>
+                
+            </section>
+            
+            <section>
+                <p>
+                    <h5>Como você classifica o atendimento antes da venda:</h5>
+                    <input type="radio" name="atendimentopre" id="1"/>
+                    <label for="1">1-Ruim</label>
+                    <input type="radio" name="atendimentopre" id="2"/>
+                    <label for="2">2-Razoável</label>
+                    <input type="radio" name="atendimentopre" id="3"/>
+                    <label for="3">3-Ótimo</label>
+
+                </p>
+                <p>
+                    <h5>Como você classifica o atendimento após a venda:</h5>
+                    <input type="radio" name="atendimentopos" id="4"/>
+                    <label for="4">1-Ruim/ Não fui atendido </label>
+                    <br>
+                    <input type="radio" name="atendimentopos" id="5"/>
+                    <label for="5">2-Bom/ Resolvi todas as dúvidas </label>
+                    <br>
+                    <input type="radio" name="atendimentopos" id="6"/>
+                    <label for="6">3-Ótimo/ Superou minhas expectativas </label>
+                   
+                </p>
+               
+                <p>
+                    <label for="produto">
+                        <h5>Qual produto você adquiriu?</h5>
+                    </label>
+                    <select>
+                        <option>Assessoria de Dress Code</option>
+                        <option>Assistência Técnica software Resolve</option>
+                        <option>Consultoria Gestão do Tempo</option>
+                        <option>Consultoria Financeira</option>
+                        <option>Treinamento Software Resolve</option>    
+                    </select>
+                </p>
+                <p>
+                    <label for="produto">
+                        <h5>Qual(is) produto(s) você tem vontade de adquirir?</h5>
+                    </label>
+                    <select multiple>
+                        <option>Assessoria de Dress Code</option>
+                        <option>Assistência Técnica software Resolve</option>
+                        <option>Consultoria Gestão do Tempo</option>
+                        <option>Consultoria Financeira</option>
+                        <option>Treinamento Software Resolve</option>    
+                    </select>
+                    <p>(Pressione Ctrl para selecionar mais de uma opção)</p>
+                </p>
+                <br></br>
+                <p>
+                    <input id="aceitotermos" type="checkbox" />
+                    <label for="aceitotermos">Autorizo compartilhar a resposta com terceiros.</label>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar resposta" />
+                </p>
+            </section>
+        </form>
+         
+
+
+ </body>
