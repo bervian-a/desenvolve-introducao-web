@@ -1,0 +1,16 @@
+/*
+.cor-fundo {color: #D8DED1;}
+.cor-destaque {color: #738B34}
+.cor-principal {font-color: #323626}
+.cor-clara {color: #8DB626;}
+.cor-neutra {color: #546134}
+*/
+
+html{
+    background: #D8DED1;
+    color: #323626;
+    text-emphasis-color: #738B34 ;
+    
+}
+
+a {color:  #738B34}
