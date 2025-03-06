@@ -79,3 +79,23 @@ h3 {font-size: 1.2rem;}
 
 abbr {font-variant: small-caps;}
 
+/*EXERCICIO 4*/
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: solid 1px #546134;
+    padding-right: 2%;
+}
+
+.design-selection {
+    position: absolute;
+    top: 560px;
+    left: 65%;
+    padding-right: 2%;
+}
+
