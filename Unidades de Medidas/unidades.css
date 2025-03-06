@@ -1,0 +1,23 @@
+
+html { font-size: 20px; }
+
+html h1 { font-size: 2rem; }
+h1 > .principal { font-size: 1.4em; }
+
+html .secundario { font-size: 1.4rem; }
+
+
+.cor {
+    color: rgb(219, 78, 68);
+    
+}
+
+.corclara {
+    color: rgb(252, 90, 78);
+}
+
+
+.corescura {
+    color: rgb(186, 66, 58);
+}
+
