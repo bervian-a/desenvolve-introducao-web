@@ -94,8 +94,51 @@ abbr {font-variant: small-caps;}
 
 .design-selection {
     position: absolute;
-    top: 560px;
+    top: 480px;
     left: 65%;
     padding-right: 2%;
 }
 
+/*Exercicio 5:*/
+
+.main footer {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 500px;
+    justify-content: space-evenly;
+}
+
+.main footer a {
+    flex-basis: 45px;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    border-bottom: solid 1px #546134;
+}
+
+.benefits h3 {
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.benefits p {
+   flex-basis: 70%;
+}
+
+.participation {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 1px #546134;
+    border-top: solid 1px #546134;
+}
+
+.participation h3, .participation p {
+    flex-basis: 50%;
+}
+
+.participation h3 {
+    align-self: center;
+}
