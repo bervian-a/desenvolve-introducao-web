@@ -94,7 +94,7 @@ abbr {font-variant: small-caps;}
 
 .design-selection {
     position: absolute;
-    top: 480px;
+    top: 450px;
     left: 65%;
     padding-right: 2%;
 }
@@ -142,3 +142,31 @@ abbr {font-variant: small-caps;}
 .participation h3 {
     align-self: center;
 }
+
+
+/*Exercicio 6:*/
+
+a {
+    color: #738B34;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #728b34a2;
+    font-weight: 900;
+}
+
+.explanation p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: Calibri, serif;
+    float: left;
+}
+
+.design-selection li {
+    border-top: solid 1px #728b34a2;
+}
+.design-selection li:last-of-type {
+    border-bottom: solid 1px #728b34a2;
+}
+
+
