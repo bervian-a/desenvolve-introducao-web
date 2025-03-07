@@ -158,7 +158,7 @@ a:hover{
 
 .explanation p:first-of-type::first-letter {
     font-size: 3em;
-    font-family: Calibri, serif;
+    font-family: 'Courier New', serif;
     float: left;
 }
 
@@ -167,6 +167,52 @@ a:hover{
 }
 .design-selection li:last-of-type {
     border-bottom: solid 1px #728b34a2;
+}
+
+/*Exercicio 7:*/
+
+@media screen and (max-width: 768px) {
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+    #zen-intro {
+        height: auto;
+    }
+    .participation {
+        flex-direction: column;
+    }
+    p {text-indent: 0;}
+}
+
+@media print {
+    html {
+        font-family: 'times new roman', serif;
+    }
+
+    #zen-intro header {
+        background-color: #ffffff;
+        color:#0f100c;
+    }
+
+    .design-selection {
+        position: static;
+        width: 100%;
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+    
+    a {
+        color: #3d3e3c;
+        font-weight: 500;
+    }
+    
 }
 
 
