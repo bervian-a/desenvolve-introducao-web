@@ -1,0 +1,206 @@
+/*
+.cor-fundo-principal {color: #F7F7F7;}
+.cor-fundo-secundaria {color: #B4AAA1;}
+.cor-destaque-titulos {color: #362A1A}
+.cor-principal-texto {font-color: #372C1C}
+.cor-secundaria-texto {font-color: #F7F7F8}
+.cor-cabeçalho {color: #A29589;}
+*/
+
+
+html{
+    background: #F7F7F7;
+    color: #372C1C;
+    text-emphasis-color: #362A1A ;
+
+    font-size: 16px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+    width: 100%;
+    margin: 2%;
+
+    list-style-type: none
+        
+}
+
+.cabecalho
+{  
+    background-color: #A29589;
+    color: #F7F7F8;
+    font-size: 2em;
+
+}
+
+#cabecalho-img , #cabecalho-info {  
+    display: inline-block;
+}
+
+#cabecalho-img {  
+    margin-right: 10%;
+}
+
+#cabecalho-info {
+    margin-left: 5%;
+    text-align: center;
+}
+
+#nome {font-size: 2em;}
+
+
+.cabecalho-nav li {
+    margin: 1%;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.habilidades li , .cabecalho li {
+    list-style-type: none
+}
+
+h2{text-decoration:underline;}
+
+.bloco1 {
+    position: relative;
+}
+
+.formacao {
+    position: absolute;
+    width: 28%;
+    margin-right: 10%;
+}
+
+.certificacoes {
+    position: absolute;
+    top: 800px;
+    left: 70%;
+    border-left: solid 4px #362A1A;
+    padding-left: 2%;
+}
+
+.periodo , #ano {
+    font-weight: 300;
+    font-style: italic;
+}
+
+ .formacao .curso {
+    margin-top: 2em;
+    border-top: solid 1px ;
+}
+
+.cargo {
+    margin-top: 2em;
+    border-top: solid 1px ;
+}
+
+.formacao {    position: relative;}
+.experiencia {    position: absolute;}
+
+.experiencia {    position: relative;}
+.habilidades {    position: absolute;}
+
+.habilidades {position: relative;}
+.rodape {
+    position: absolute;
+    width: 100%;
+}
+
+.habilidades {position: relative;}
+.hard-skils {    position: absolute;
+    top: 4em;
+    left: 15%;
+    border-left: solid 1px #362A1A;
+    padding-left: 1%;
+}
+.soft-skils {
+    right: 10%;
+    padding-left: 1%;
+}
+
+#habilidades {padding-bottom: 0.5%;}
+
+
+.rodape {  
+    background-color: #362A1A;
+    color: #F7F7F8;
+    margin-top: 1em;
+
+}
+
+.rodape p {  
+    display: inline;
+    padding: 3%;
+    align-content: space-around;
+}
+
+.rodape img {
+    max-width:70px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
+
+#contatos {
+    text-align: center;
+}
+
+a {
+    color: #362A1A;
+    font-weight: 500;
+}
+
+.rodape a {
+    color: #A29589;
+    font-weight: 500;
+}
+
+.rodape #email {
+    color: #A29589;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #F7F7F8;
+    font-weight: 900;
+}
+
+.copyright {
+    margin-top: 2%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .formacao {
+        position: static;
+        width: 100%;
+    }
+    .hard-skils {
+        position: static;
+        border-left: none;
+        width: 100%;
+    }
+
+    .certificacoes {    position: static;
+        height: auto;
+        border-left: none;
+        width: 100%;
+    }
+
+    .cabecalho-nav li {
+        display: block;
+        text-align: center;
+     }
+
+     #cabecalho-img , #cabecalho-info {  
+        display: block;
+    }
+    
+    #cabecalho-img {  
+        margin-left: 15%;
+    }
+
+     #cabecalho-info {
+        text-align: center;}
+
+}
